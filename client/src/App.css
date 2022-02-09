@@ -1,0 +1,208 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: gainsboro solid 0.5px;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 60px;
+}
+.Header h1 {
+  display: flex;
+  flex-basis: 30%;
+}
+.Header_Input {
+  display: flex;
+  flex: 0.75;
+  height: 70%;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #f7f5f5;
+  border-radius: 25px;
+}
+.Header_Input input {
+  width: 100%;
+  border: none;
+  background-color: #f7f5f5;
+  font-size: 1rem;
+}
+input:focus {
+  outline: none;
+}
+.Header nav {
+  display: flex;
+  justify-content: right;
+  flex-basis: 30%;
+}
+.Header ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.Header li {
+  padding: 1em;
+  list-style: none;
+}
+.Header a {
+  text-decoration: none;
+  color: black;
+}
+.new_or_hot {
+  display: flex;
+  padding-left: 3em;
+}
+.new_or_hot button {
+  font-size: 1rem;
+  padding: 1em;
+  border: none;
+  background-color: transparent;
+}
+.new_or_hot button:hover {
+  cursor: pointer;
+}
+
+.Mainer {
+  padding: 3em;
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.blogcard {
+  border-radius: 10px;
+  width: 20rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  margin: 1em;
+}
+.blogcard:hover {
+  transform: translate(0, -10px);
+}
+.blogImage {
+  height: 21rem;
+}
+.blogImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blogAbout {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.blogcard p {
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+}
+
+.Mypage {
+  width: 100vw;
+}
+.profileZone {
+  text-align: center;
+}
+.profile {
+  display: inline-block;
+  border-bottom: #dbdbdb 1px solid;
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+}
+.profile_img {
+  width: 300px;
+  text-align: center;
+  float: left;
+  border-radius: 50px;
+}
+.profile_img img {
+  object-fit: cover;
+}
+.profile_info {
+  height: 100%;
+  padding: 1em;
+  float: right;
+}
+.ed_ing_pst_Count {
+  display: flex;
+}
+.buttons {
+  margin-top: 1.5em;
+}
+.buttons button {
+  width: 100px;
+  margin: 1em;
+  background-color: white;
+  border-width: 0.5px;
+  border-radius: 5px;
+  border-color: #dbdbdb;
+}
+
+.count {
+  display: flex;
+  margin-right: 1em;
+}
+.count p {
+  margin: 0.25em;
+}
+
+.Postings {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.Posting_Board {
+  width: 60vw;
+  height: calc(100vh - 100px);
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 0;
+  border: gainsboro solid 0.5px;
+}
+
+.Post_Title {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: gainsboro solid 0.5px;
+}
+.Post_Title p {
+  text-align: center;
+  width: 100px;
+  margin: 0;
+}
+.Posting_Board input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  background-color: transparent;
+}
+.Post_Context {
+  height: 100%;
+}
+.Post_Context textarea {
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 10px;
+}
+textarea:focus {
+  outline: none;
+}
+.Post_Context {
+  height: calc();
+}
